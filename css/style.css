@@ -1,0 +1,245 @@
+/* Start General */
+body{
+    background-color: #fff;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+/* End General */
+
+/* Start Header */ 
+header nav{
+    background-color: #252F31;
+    color: #fff;
+    overflow: hidden;
+}
+
+header nav h2{
+    float: left; 
+    text-transform: uppercase;   
+}
+
+header nav h2 span{
+    color: #2ecc71;
+}
+
+header nav ul{
+    list-style: none;    
+    overflow: hidden;
+    float: right;
+}
+
+header nav ul li{
+    float: left;
+    padding: 8px;
+}
+
+header nav ul li:hover{
+    background-color: #2ecc71;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* End Header */ 
+
+/* Start Features */
+
+.info{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 6px;
+    display: block;
+    float: left;
+    width: 32%;
+    text-align: center;
+    border: 2px solid #252F31;
+    border-radius: 2%;
+}
+
+.info:nth-child(2) {
+    background-color:#252F31 ;
+    color: #2ecc71;
+}
+
+.info:nth-child(3){
+    margin-right: 0px;
+}
+
+/* End Features */
+
+/* Start About Me */
+.about-me .aboutmeinfo{
+    float: left;
+    width: 59%;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+.about-me .aboutmeinfo .hobbies h3,
+.about-me .aboutmeinfo .hobbies p{
+    margin: 0 0 10px 40px;
+}
+
+.about-me img{
+    float: right;
+    width: 40%;
+}
+
+.hobbies > div{
+    float: left;
+    width: 50%;
+    min-height: 50px;
+}
+
+
+/* End About Me */
+
+/* Start MySkills */
+
+.my-skills{
+    display: inline-block;
+    width: 1000px;
+    height: 240px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    background-color: #252F31;
+    color: #2ecc71;
+}
+
+.my-skills .skills{
+    width: 50%;
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
+.my-skills .skills button{
+    border: 2px solid #2DCC70;
+    color: #2ecc71;
+    padding: 10px 30px;
+    background-color: none;
+   }
+
+.my-skills .skills button:hover{
+    border: none;
+    color: #2ecc71;
+    background-color: #fff ;
+    border-radius: 50%;
+}
+
+.my-skills .progress{
+    width: 49%;
+    float: right;
+}
+
+.my-skills .progress .technique {
+    margin-left: 30px;
+    width: 80%;
+}
+
+.my-skills .progress .technique div {
+    background-color: #F2F2F2;
+    height: 25px;
+    padding-right:10px ;
+}
+
+.my-skills .progress .technique span{
+    background-color: #2ecc71;
+    height: 25px;
+    display: block;
+    visibility: visible;
+}
+/* 
+.my-skills .skills,
+.my-skills .progress{
+    width: 50%;
+    float: left;
+} 
+*/
+/* End MySkills */
+
+/* Start Protofolio */ 
+.protofolio {
+    text-align: center;
+}
+
+.protofolio .my-work > div {
+    float: left;
+    width: 31.5%;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.protofolio .my-work > div:nth-child(3n) {
+    margin-right: 0;
+}
+/* End Protofolio */
+
+/* Start Contact */
+.contact {
+    display: inline-block;
+    background-color: #252F31;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.contact h2 {color: #fff;}
+
+.contact p {
+    color: #6a6e71; 
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.contact .info,
+.contact .form {
+    float: left;
+    width: 45%;
+    padding-bottom: 25px;
+}
+
+.contact .form {
+    margin-left: 20px;
+    margin-top: 90px;
+}
+
+.contact .form input {
+    width: 100%;
+    border: none;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.contact .form textarea {
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+}
+
+.contact .form button {
+    border: none;
+    color: #fff;
+    background-color: #2ecc71;
+    width: 60px;
+    height: 25px;
+    margin-top: 10px;
+}  
+
+/* End Contact */
+
+/* Start Footer */ 
+
+footer {
+    background-color: #252F31;
+    text-align: center;
+    padding: 25px;
+    color: #2ecc71;
+}
+
+/* End Footer */
